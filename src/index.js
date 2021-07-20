@@ -1,5 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-let name = "manish";
-ReactDOM.render(<h1>hi {name}</h1>, document.getElementById("root"));
+let name = "Manish";
+
+let luckyNumber = Math.floor(Math.random() * 10 + 1);
+
+ReactDOM.render(
+  <div>
+    <h1>Hi {name}</h1>
+    <p> your {luckyNumber} </p>
+  </div>,
+  document.getElementById("root")
+);
