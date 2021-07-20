@@ -9,6 +9,7 @@ ReactDOM.render(
   <div>
     <h1>Hi {name}</h1>
     <p> your {luckyNumber} </p>
+    pthsiias
   </div>,
   document.getElementById("root")
 );
